@@ -1,0 +1,38 @@
+/* Color Theme Swatches in Hex */
+.principal { color: #0A3B59; }
+.Arquitetura-2-hex { color: #639CBF; }
+.background { color: #D0E9F2; }
+.Arquitetura-4-hex { color: #6B732F; } 
+.destaque { color: #A2A644; }
+
+/*exercicio 1
+cor da fonte, cor de fundo, fonte e tamanho da fonte*/
+html{ 
+    color: #0A3B59;
+    background: #D0E9F2;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+p{text-indent: 1em;}
+
+/*Exercico 2
+centralizaçao e tamanho dos titulos*/
+
+
+
+h1, h2, h3 {text-align: center;}
+h1{ font-size: 1.8rem;}
+h2{font-size: 1.4rem;}
+h3{font-size: 1.2rem;}
+
+/*Exercicio 3
+alinhameto do texto, ex centralizado, a direita ou a esquerda*/
+
+.summary {text-align: center;}
+.main p{line-height: 1.5;}
+
+/*Exercicio 4 
+Customize todos as abreviaturas para que a fonte seja carregada em small-caps*/
+
+abbr{font-variant: small-caps;}
+
