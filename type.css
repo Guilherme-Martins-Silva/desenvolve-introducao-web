@@ -47,7 +47,21 @@ Parte 1 */
     max-width: 1280px;
     margin:auto;}
 
+.page-wrapper{ position: relative;}
+
+.explanation{
+    width: 60%;
+    border-right: #0A3B59;
+    padding-right: 2%;}
+
+#design-selection{
+    position:absolute;
+    top: 560px;
+    left: 62%;
+    padding-right: 1%;}    
+
 /*Posiçao da fonte, cor do cabeçalho e ocultacao de textos */
+
 
 #zen-intro{height: 550px;}
 #design-archives{display: none;}
