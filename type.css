@@ -57,7 +57,7 @@ Parte 1 */
 
 #design-selection{
     position:absolute;
-    top: 520px;
+    top: 480px;
     left: 62%;
     width: 34%;
     padding: 0 2%;}    
@@ -114,9 +114,23 @@ aside ul li{
 }
  
 .participatio h3, .participatio p {
-    flex-basis: 50%;
-}
+    flex-basis: 50%;}
 .participatio h3{align-self: center;}
+
+
+a {color: #6B732F;}
+a:hover{ color: #8b9446;}
+.main p:first-of-type:first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;}
+.desing-selection li{
+    border-top: #0A3B59 solid 1px;
+    padding-top: 5px;}
+.desing-selection li:last-of-type {
+    border-bottom: #0A3B59 solid 1px;
+    padding-bottom: 5px;}
+
     
 
 
