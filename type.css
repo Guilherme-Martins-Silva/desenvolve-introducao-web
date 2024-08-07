@@ -52,13 +52,15 @@ Parte 1 */
 .explanation{
     width: 60%;
     border-right: #0A3B59;
-    padding-right: 2%;}
+    padding-right: 2%;
+    border-right: #0A3B59 solid 1px;}
 
 #design-selection{
     position:absolute;
-    top: 560px;
+    top: 520px;
     left: 62%;
-    padding-right: 1%;}    
+    width: 34%;
+    padding: 0 2%;}    
 
 /*Posiçao da fonte, cor do cabeçalho e ocultacao de textos */
 
@@ -82,9 +84,39 @@ aside ul li{
     text-align: center;}
 .main footer {margin: 4%;}
 .main footer a{
-    border: solid 2px  #0A3B59;
+    border-left: #0A3B59 solid 1px; 
     padding: 0.5em;
     display: inline-block;}
+    
+
+.supporting footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.benefits{
+    display: flex;
+    border-top: #0A3B59 solid 1px;
+    border-bottom: #0A3B59 solid 1px;
+}
+
+.benefits p{flex-basis: 70%;}
+
+.benefits h3 {
+    order: 2;
+    display: flex;
+    align-self: center;
+    flex-basis: 30%;}
+
+.participatio{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #0A3B59 solid 1px;
+}
+ 
+.participatio h3, .participatio p {
+    flex-basis: 50%;
+}
+.participatio h3{align-self: center;}
     
 
 
