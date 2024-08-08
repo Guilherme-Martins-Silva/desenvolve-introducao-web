@@ -55,7 +55,7 @@ Parte 1 */
     padding-right: 2%;
     border-right: #0A3B59 solid 1px;}
 
-#design-selection{
+.design-selection{
     position:absolute;
     top: 480px;
     left: 62%;
@@ -130,6 +130,50 @@ a:hover{ color: #8b9446;}
 .desing-selection li:last-of-type {
     border-bottom: #0A3B59 solid 1px;
     padding-bottom: 5px;}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .desing-selection /*posicionamento */{
+        position: static;
+        width: 100%;}
+
+    .explanation /* apresentaçao*/{
+        border-right: none;
+        width: 100%;}
+
+
+    #zen-intro /*altura fixa*/ {
+        height: auto;}
+
+
+    .participatio{
+            flex-direction: column;}
+
+
+    p {text-indent: 0;}
+}
+@media print {
+    html {font-family: 'Times New Roman', Times, serif;}
+
+
+    #zen-intro header {
+        background-color: #D0E9F2;
+        color:#0A3B59;}
+    
+
+    .desing-selection /*posicionamento */{
+        position: static;
+        width: 100%;}
+    
+    .explanation /* apresentaçao*/{
+        border-right: none;
+        width: 100%;}
+    
+}
+
+
 
     
 
